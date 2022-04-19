@@ -1,4 +1,5 @@
 import { Component } from "react";
+import './Calculator.css'
 
 export default class Calculator  extends Component{
     constructor(props) {
@@ -8,6 +9,9 @@ export default class Calculator  extends Component{
     render() {
         return (
             <table>
+                <tr>
+                    <td colSpan='4' class="right"><input type="text" /></td>
+                </tr>
                 <tr>
                     <td>AC</td>
                     <td>+/-</td>
