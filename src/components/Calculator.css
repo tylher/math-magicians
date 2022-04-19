@@ -6,40 +6,43 @@
 
 table {
   border-collapse: collapse;
-  border-top:  1px solid black;
+  border-top: 2px solid rgb(155, 155, 155);
   margin: auto;
   width: 70%;
 }
 
-
-td{
+td {
   width: 25%;
   padding: 2%;
   text-align: center;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-   background-color: rgb(168, 166, 166);
+  border-bottom: 2px solid rgb(155, 155, 155);
+  border-right: 2px solid rgb(155, 155, 155);
+  background-color: rgb(192, 192, 192);
+  cursor: pointer;
 }
 
-.right{
+.right {
   border-right: none;
   border-left: none;
-  background-color: rgb(255, 168, 7);
+  background-color: rgb(255, 156, 7);
 }
 
-.right:first-child{
-    background: none;
-    padding: 0;
+.right:first-child {
+  background: none;
+  padding: 0;
 }
 
-input{
-    width: 100%;
-    font-size: 1.4em;
-    padding: 1%;
-    border: none;
-    text-align: right;
-    outline: none;
-    background-color: rgb(168, 166, 166);
+input {
+  width: 100%;
+  font-size: 1.4em;
+  padding: 1%;
+  border: none;
+  text-align: right;
+  outline: none;
+  background-color: rgb(85, 85, 85);
+  color: #fff;
 }
 
-
+input::placeholder {
+  color: white;
+}
