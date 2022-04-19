@@ -18,12 +18,13 @@ td{
   text-align: center;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
+   background-color: rgb(168, 166, 166);
 }
 
 .right{
   border-right: none;
   border-left: none;
-  background-color: blue;
+  background-color: rgb(255, 168, 7);
 }
 
 .right:first-child{
@@ -33,10 +34,12 @@ td{
 
 input{
     width: 100%;
-    padding: 2%;
+    font-size: 1.4em;
+    padding: 1%;
     border: none;
     text-align: right;
     outline: none;
+    background-color: rgb(168, 166, 166);
 }
 
 

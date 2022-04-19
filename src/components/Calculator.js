@@ -10,7 +10,7 @@ export default class Calculator  extends Component{
         return (
             <table>
                 <tr>
-                    <td colSpan='4' class="right"><input type="text" /></td>
+                    <td colSpan='4' class="right"><input type="digit" placeholder="0"/></td>
                 </tr>
                 <tr>
                     <td>AC</td>
