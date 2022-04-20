@@ -12,7 +12,9 @@
 
 .row{
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: repeat(4,1fr);
 }
 
 .right {
