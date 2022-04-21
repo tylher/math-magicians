@@ -10,7 +10,6 @@ const content = [
   ['0', '.', '='],
 ];
 
-// eslint-disable-next-line react/prefer-stateless-function
 export const Calculator = () => {
   const [obj, setObj] = useState({});
 
@@ -36,7 +35,7 @@ export const Calculator = () => {
               );
             }
             return (
-            // eslint-disable-next-line react/jsx-key
+              // eslint-disable-next-line react/jsx-key
               <button type="button" onClick={(e) => handleClick(e)}>{item}</button>
             );
           })}
