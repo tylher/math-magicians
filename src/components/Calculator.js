@@ -15,7 +15,9 @@ export const Calculator = () => {
   const [obj, setObj] = useState({});
 
   const handleClick = (e) => {
+    // const { next, total } = obj;
     setObj(calculate(obj, e.target.value));
+    console.log(obj);
   };
   const { next, total } = obj;
   return (
@@ -28,16 +30,16 @@ export const Calculator = () => {
         <div className="row">
           {row.map((item, i) => {
             if (i === row.length - 1) {
-              return <button type="button" onClick={() => handleClick()} className="right">{item}</button>;
+              return <button type="button" onClick={(e) => handleClick(e)} className="right">{item}</button>;
             }
             if (row.length === 3 && i === 0) {
               return (
-                <button type="button" onClick={() => handleClick()} className="w-2">{item}</button>
+                <button type="button" onClick={(e) => handleClick(e)} className="w-2">{item}</button>
               );
             }
             return (
             // eslint-disable-next-line react/jsx-key
-              <button type="button" onClick={() => handleClick()}>{item}</button>
+              <button type="button" onClick={(e) => handleClick(e)}>{item}</button>
             );
           })}
         </div>
