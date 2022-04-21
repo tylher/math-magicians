@@ -15,8 +15,7 @@ export const Calculator = () => {
   const [obj, setObj] = useState({});
 
   const handleClick = (e) => {
-    // const { next, total } = obj;
-    setObj(calculate(obj, e.target.value));
+    setObj(calculate(obj, e.target.textContent));
     console.log(obj);
   };
   const { next, total } = obj;
