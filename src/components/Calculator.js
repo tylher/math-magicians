@@ -23,20 +23,18 @@ export const Calculator = () => {
         <input type="digit" placeholder="0" value={next || total} />
       </div>
       {content.map((row) => (
-        // eslint-disable-next-line react/jsx-key
-        <div className="row">
+        <div className="row" key={row.id}>
           {row.map((item, i) => {
             if (i === row.length - 1) {
-              return <button type="button" onClick={(e) => handleClick(e)} className="right">{item}</button>;
+              return <button type="button" key={item.i} onClick={(e) => handleClick(e)} className="right">{item}</button>;
             }
             if (row.length === 3 && i === 0) {
               return (
-                <button type="button" onClick={(e) => handleClick(e)} className="w-2">{item}</button>
+                <button type="button" key={item.i} onClick={(e) => handleClick(e)} className="w-2">{item}</button>
               );
             }
             return (
-              // eslint-disable-next-line react/jsx-key
-              <button type="button" onClick={(e) => handleClick(e)}>{item}</button>
+              <button type="button" key={item.i} onClick={(e) => handleClick(e)}>{item}</button>
             );
           })}
         </div>
