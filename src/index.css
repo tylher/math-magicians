@@ -15,10 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  display: flex;
-  justify-content: center;
   width: 100%;
-  align-items: center;
 }
 
 code {
@@ -33,4 +30,6 @@ code {
 
 #root {
   width: 100%;
+  height: 100%;
+  background-color: rgba(245, 244, 241, 0.863);
 }
