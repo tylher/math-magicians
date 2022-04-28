@@ -4,10 +4,16 @@
   margin: 0;
 }
 
+.container{
+  display: flex;
+  margin: 100px 5% ;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .column {
   border-top: 2px solid rgb(155, 155, 155);
-  margin: 50px auto;
-  width: 70%;
+  width: 60%;
 }
 
 .row {
@@ -48,7 +54,7 @@ button {
   border-bottom: 1px;
   border-right: 1px;
   width: 100%;
-  padding: 7%;
+  padding: 10%;
   text-align: center;
   background-color: rgb(192, 192, 192);
   cursor: pointer;
