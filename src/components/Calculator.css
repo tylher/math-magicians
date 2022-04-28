@@ -4,9 +4,9 @@
   margin: 0;
 }
 
-.container{
+.container {
   display: flex;
-  margin: 100px 5% ;
+  margin: 100px 5%;
   justify-content: space-between;
   align-items: flex-start;
 }
