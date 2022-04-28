@@ -3,3 +3,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+li{
+  list-style: none;
+}
+
+.nav-bar{
+  display: flex;
+  margin: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+.nav-bar>ul{
+  display: flex;
+  gap: 20px;
+}
+
+.home-container{
+  padding: 50px 10%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 1.3em;
+}
+
+.quotes-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 10%;
+  font-size: 30px;
+}

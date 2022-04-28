@@ -1,10 +1,16 @@
 import './App.css';
 import { Calculator } from './components/Calculator';
+import NavBar from './components/NavBar';
+import Home from './pages/Home';
+import Quote from './pages/Quotes';
 
 const App = () => (
-  <div>
+  <>
+    <NavBar />
     <Calculator />
-  </div>
+    <Home />
+    <Quote />
+  </>
 );
 
 export default App;
