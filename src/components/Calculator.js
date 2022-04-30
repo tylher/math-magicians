@@ -10,7 +10,7 @@ const content = [
   ['0', '.', '='],
 ];
 
-export const Calculator = () => {
+const Calculator = () => {
   const [obj, setObj] = useState({});
 
   const handleClick = (e) => {
