@@ -18,6 +18,9 @@
   > JSON,
   > Babel
 
+## Live Demo
+View live version of app [here](https://math-magician-tylher.netlify.app/)
+
 
 ## Getting Started
 
